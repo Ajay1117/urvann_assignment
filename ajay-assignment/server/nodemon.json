@@ -1,0 +1,8 @@
+{
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "node --loader ts-node/esm src/index.ts"
+}
